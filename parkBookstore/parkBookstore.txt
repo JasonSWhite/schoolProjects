@@ -1,0 +1,10 @@
+Project 1
+
+Create the following web page, and name the file parkBookstore.html .
+Note that the horizontal line is right aligned. To implement that effect, 
+use the margin-right CSS property with a value of 0.
+
+<!-- Example from textbook included in file -->
+
+From Chapter 1 of Web Programming wiht HTML5, CSS, and JavaScript 
+by John Dean.
