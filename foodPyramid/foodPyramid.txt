@@ -1,0 +1,7 @@
+Food Pyramid
+
+Chapter 5 Projects
+
+Create the following web page and name the file foodPyramid.html:
+
+See foodPyramid.jpg
