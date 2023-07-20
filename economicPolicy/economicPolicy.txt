@@ -1,0 +1,17 @@
+Economic Policy
+
+The following rules illustrate traditional economic policy theory in terms of regulating a government’s economy.
+
+a) If the annual growth rate is less than 1%:
+
+If inflation is less than 3%, recommended economic policy is: Increase welfare spending, reduce personal taxes, 
+and decrease discount rate.
+Otherwise, recommended economic policy is: Reduce business taxes.
+b) If the annual growth rate is greater than 4%:
+
+If inflation is less than 1%, recommended economic policy is: Increase personal and business taxes, and decrease 
+discount rate.
+If inflation is greater than 3%, recommended economic policy is: Increase discount rate.
+Write a program that applies these economic policy practices. More specifically, read in growthRate and 
+inflationvalues and output the recommended economic policy for the given economic situation. If there is no 
+recommended economic policy for the given economic situation, then output “No change in economic policy.”

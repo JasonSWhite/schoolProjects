@@ -1,0 +1,61 @@
+Bank Balance - Millionaire Savings Account
+
+The First National Bank of Parkville recently opened up a new 
+“So You Want to Be a Millionaire” savings account. The new 
+account works as follows:
+
+-The bank doubles the customer’s balance every year until the 
+customer’s balance reaches one million.
+-The customer isn’t allowed to touch the money (no deposits or 
+withdrawals) until the customer’s balance reaches one million. 
+If the customer dies before becoming a millionaire, the bank keeps 
+the customer’s balance.
+-Note:Customers close to $1,000,000 tend to get “accidentally” run 
+over in the bank’s parking lot.
+
+Write a program that prompts the user for a starting balance and 
+then prints the number of years it takes to reach $100,000 and also 
+the number of years it takes to reach $1,000,000.
+
+Sample session:
+
+Enter starting balance: 10000
+It takes 4 years to reach $100,000.
+It takes 7 years to reach $1,000,000.
+
+
+ package millionaireBankAccount;
+import java.util.Scanner;
+
+public class millionaireBankAccount {
+
+	public static void main(String[] args) 
+	{
+		try (Scanner stdIn = new Scanner(System.in)) {
+            System.out.println("Enter starting balance:");
+            double deposit = stdIn.nextDouble();
+            double balance = 0;
+            balance = Math.abs( deposit + 0 );
+            int count = 0;
+            
+            
+            while ( balance < 100_000) 
+            {
+            	balance = Math.abs(balance * 2);
+            	count++;
+            }
+            System.out.println(count + " Years until you reach $100,000.");
+            
+            while (balance < 1_000_000) 
+            {
+            	balance = Math.abs(balance * 2);
+            	count++;
+            }
+            System.out.println(count + " Years until you reach $1,000,000.");
+        }	
+	}
+ 
+}
+
+
+https://itsfoss.com/vs-code-github/
